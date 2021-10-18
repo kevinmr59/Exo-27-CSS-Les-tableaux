@@ -1,0 +1,41 @@
+table
+{
+
+    table-layout: auto;
+    width: 40px;
+    height: 20px;
+    border: medium solid #000000;
+
+}
+
+td,th {
+    border: medium solid #000000;
+    width: 40px;
+    height: 20px;
+}
+
+#tableau\ 1 {
+border-collapse: separate;
+    empty-cells:hide;
+}
+
+#tableau\ 2
+{
+    caption-side: bottom;
+    border-collapse: separate;
+    empty-cells:show;
+}
+
+#tableau\ 3{
+    caption-side: top;
+    border-collapse: collapse;
+    empty-cells: show;
+}
+
+#tableau\ 4 {
+    caption-side: bottom;
+    border-collapse: collapse;
+    empty-cells: hide;
+
+}
+
